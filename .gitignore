@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js / Build outputs
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# Environment & Secrets (NEVER commit API keys or ARCA/AFIP certificates)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# Python / Local scrapers & data caches
+__pycache__/
+.venv/
+venv/
+*.pyc
+data/raw/
+data/cache/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
